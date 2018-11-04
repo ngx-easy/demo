@@ -22,7 +22,10 @@
       ],
       "@ngx-easy/grid": [
         "dist/grid"
-      ]
+      ],
+      "@ngx-easy/modal": [
+        "dist/modal"
+      ],
     }
   }
 }

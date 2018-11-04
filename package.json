@@ -11,8 +11,10 @@
     "ngc": "ngc",
     "build:virtual-scroll": "ng build virtual-scroll --prod",
     "build:grid": "ng build grid --prod",
-    "publish:grid": "npm publish dist/grid",
-    "publish:virtual-scroll": "npm publish dist/virtual-scroll"
+    "build:modal": "ng build modal --prod",
+    "publish:virtual-scroll": "npm publish dist/virtual-scroll",
+    "publish:grid": "npm publish dist/grid",    
+    "publish:modal": "npm publish dist/modal"
   },
   "private": true,
   "dependencies": {

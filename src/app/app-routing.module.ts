@@ -23,6 +23,14 @@ const routes: Routes = [
       title: 'grid'
     }
   },
+  {
+    path: 'modal',
+    loadChildren: './demos/modal/modal.module#ModalModule',
+    pathMatch: 'full',
+    data: {
+      title: 'modal'
+    }
+  },
 ];
 
 @NgModule({
