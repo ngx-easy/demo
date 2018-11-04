@@ -11,17 +11,17 @@ export class ExampleModalComponent implements OnDestroy {
 
   @ViewChild('template') template: TemplateRef<any>;
 
-  private closeSubscription: Subscription;
+  private closeRequestSubscription: Subscription;
 
   constructor(public modalService: EasyModalService) {
-    this.onClose = this.modalService.closeEvent.subscribe(() => {
-      this.onClose();
+    this.closeRequestSubscription = this.modalService.closeRequest.subscribe(() => {
+      this.close();
     });
   }
 
   ngOnDestroy() {
-    if (this.closeSubscription) {
-      this.closeSubscription.unsubscribe();
+    if (this.closeRequestSubscription) {
+      this.closeRequestSubscription.unsubscribe();
     }
   }
 
@@ -31,9 +31,5 @@ export class ExampleModalComponent implements OnDestroy {
 
   close() {
     this.modalService.close();
-  }
-
-  onClose() {
-    console.log('On Close');
   }
 }
