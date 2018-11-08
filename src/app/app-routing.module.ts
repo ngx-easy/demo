@@ -31,6 +31,14 @@ const routes: Routes = [
       title: 'modal'
     }
   },
+  {
+    path: 'boxes',
+    loadChildren: './demos/boxes/boxes.module#BoxesModule',
+    pathMatch: 'full',
+    data: {
+      title: 'boxes'
+    }
+  },
 ];
 
 @NgModule({

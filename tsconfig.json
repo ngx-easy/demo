@@ -26,6 +26,9 @@
       "@ngx-easy/modal": [
         "dist/modal"
       ],
+      "boxes": [
+        "dist/boxes"
+      ]
     }
   }
 }
