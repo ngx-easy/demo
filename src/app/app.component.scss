@@ -3,22 +3,31 @@
   top: 0;
   left: 0;
   z-index: 2;
+
   button {
-    margin-right: 15px;
+    margin-right: 10px;
+  }
+
+  .logo {
+    height: 30px;
+    width: 30px;
   }
 }
 
 .drawer-container {
   position: absolute;
   width: 100%;
+
   @media (max-width: 599px) {
     height: calc(100% - 56px);
     top: 56px;
   }
+
   @media (min-width: 600px) {
     top: 64px;
     height: calc(100% - 64px);
   }
+
   .mat-drawer-content {
     overflow: hidden;
   }

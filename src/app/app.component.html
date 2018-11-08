@@ -1,7 +1,7 @@
 <mat-toolbar color="primary" class="mat-elevation-z3">
   <mat-toolbar-row>
-    <button mat-icon-button (click)="drawer.toggle()">
-      <mat-icon>menu</mat-icon>
+    <button mat-icon-button (click)="drawer.toggle()" [tabIndex]="-1">
+      <img class="logo" src="assets/logo.png">
     </button>
     <span>@ngx-easy/{{title}}</span>
   </mat-toolbar-row>
