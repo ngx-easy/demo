@@ -9,13 +9,13 @@
   align-items: center;
 }
 
-.ez-virtual-scroll {
-  margin: 20px;
+.virtual-scroll {
   height: calc(100% - 40px);
   width: calc(100% - 40px);
   max-width: 500px;
   max-height: 650px;
   border: 1px solid black;
+  box-sizing: border-box;
   .row {
     display: flex;
     align-content: flex-start;
