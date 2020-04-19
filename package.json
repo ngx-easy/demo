@@ -37,14 +37,12 @@
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "^7.1.4",
     "@angular-devkit/build-ng-packagr": "~0.11.4",
     "@angular-devkit/build-angular": "~0.11.4",
     "ng-packagr": "^4.4.5",
     "tsickle": ">=0.34.0",
     "tslib": "^1.9.3",
     "typescript": ">=3.1.1 and <3.2.0",
-    "@angular/cli": "~7.1.4",
     "@angular/language-service": "^7.1.4",
     "@types/jasmine": "~3.3.5",
     "@types/jasminewd2": "~2.0.6",
